@@ -23,23 +23,22 @@
 
   echo '<br />';
 
+  /*display each portfolio pice along with the title. If a url was supplied,
+    edit the url as necessary to ensure a proper link, and display the image
+    as a link to the url provided.*/
   foreach ($portfolio as $portfolio){
     echo $portfolio['title'];
     if($portfolio['url'] == ''){
-      echo $portfolio['url'];
       echo '<a href="' . $portfolio['image'] . '">';
       echo '<img src="' . $portfolio['thumb'] . '" /></a>';
     }elseif (preg_match('/http:\/\/www./', $portfolio['url'])){
-      echo $portfolio['url'];
       echo '<a href="' . $portfolio['url'] . '">';
       echo '<img src="' . $portfolio['thumb']. '" /></a>';
     }elseif (!preg_match('/http:\/\//', $portfolio['url']) 
                 && preg_match('/www./', $portfolio['url'])){
-      echo $portfolio['url'];
       echo '<a href="http://'. $portfolio['url'] . '">';
       echo '<img src="' . $portfolio['thumb'] . '" /></a>';
     }else{
-      echo $portfolio['url'];
       echo '<a href="http://www.' . $portfolio['url'] . '">';
       echo '<img src="' . $portfolio['thumb'] . '" /></a>';
     }
