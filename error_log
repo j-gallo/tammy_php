@@ -1,0 +1,19 @@
+[18-Apr-2012 11:10:13] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/crudea5/public_html/j-gallo.com/model/blog_db.php on line 30
+[18-Apr-2012 11:14:47] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/crudea5/public_html/j-gallo.com/model/blog_db.php on line 30
+[18-Apr-2012 11:17:15] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/crudea5/public_html/j-gallo.com/model/blog_db.php on line 30
+[18-Apr-2012 11:17:34] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/crudea5/public_html/j-gallo.com/model/blog_db.php on line 30
+[18-Apr-2012 11:18:47] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/crudea5/public_html/j-gallo.com/model/blog_db.php on line 30
+[18-Apr-2012 11:19:07] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/crudea5/public_html/j-gallo.com/model/blog_db.php on line 30
+[18-Apr-2012 11:19:08] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/crudea5/public_html/j-gallo.com/model/blog_db.php on line 30
+[18-Apr-2012 11:19:35] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/crudea5/public_html/j-gallo.com/model/blog_db.php on line 30
+[18-Apr-2012 11:19:40] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/crudea5/public_html/j-gallo.com/model/blog_db.php on line 30
+[18-Apr-2012 11:20:12] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/crudea5/public_html/j-gallo.com/model/blog_db.php on line 30
+[18-Apr-2012 11:20:47] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/crudea5/public_html/j-gallo.com/model/blog_db.php on line 30
+[18-Apr-2012 15:04:36] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/crudea5/public_html/j-gallo.com/model/blog_db.php on line 30
+[18-Apr-2012 15:14:13] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/crudea5/public_html/j-gallo.com/model/blog_db.php on line 30
+[18-Apr-2012 15:28:02] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/crudea5/public_html/j-gallo.com/model/blog_db.php on line 30
+[18-Apr-2012 16:33:23] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/crudea5/public_html/j-gallo.com/model/blog_db.php on line 30
+[22-Apr-2012 14:06:43] PHP Warning:  require(./layout/footer.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/crudea5/public_html/j-gallo.com/tammy/index.php on line 23
+[22-Apr-2012 14:06:43] PHP Warning:  require(./layout/footer.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/crudea5/public_html/j-gallo.com/tammy/index.php on line 23
+[22-Apr-2012 14:06:43] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required './layout/footer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/crudea5/public_html/j-gallo.com/tammy/index.php on line 23
+[22-Apr-2012 18:44:23] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/crudea5/public_html/j-gallo.com/tammy/model/database.php:3) in /home/crudea5/public_html/j-gallo.com/tammy/layout/header.php on line 3
