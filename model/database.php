@@ -1,9 +1,9 @@
 <?php
   /*This function connects to the database. If any error occurs,
     control is passed to database_error.php */
-  $dsn = 'mysql:host=localhost;dbname=crudea5_jgallo';
-  $username = 'crudea5_jgallo';
-  $password = 'jj8687';
+  $dsn = 'mysql:host=localhost;dbname=crude';
+  $username = ********;
+  $password = ********;
 
   try{
       $db = new PDO($dsn,$username,$password);
